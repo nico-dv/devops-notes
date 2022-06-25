@@ -1,0 +1,23 @@
+git init
+git add main.tf .terraform.lock.hcl
+git commit -m "Initial commit"
+
+
+add .gitignore file with: 
+    .terraform
+    *.tfstate
+    *.tfstate.backup
+    
+    
+git add .gitignore
+git commit -m "Add a .gitignore file"
+    
+    
+    
+git remote add origin git@github.com:<YOUR_USERNAME>/<YOUR_REPO_NAME>.git
+
+
+git push/pull origin main
+    
+    
+  
